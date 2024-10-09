@@ -1,0 +1,279 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 72px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid red;
+
+}
+
+.logo{
+    margin: 0px;
+    min-width: 90px;
+    max-height: 70px;
+    padding-left: 10px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: inline;
+    margin: 0px;
+    font-size: 14px;
+}
+
+li{
+    display: inline;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0px;
+}
+.a{
+    color: #707070;
+    text-decoration: none;
+}
+.a:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav{
+    margin-left: 52%;
+    display: inline;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: red;
+    border: 0;
+    max-height: 35px;
+    min-width: 85px;
+    border-radius: 17.5px;
+    display: inline ;
+    margin: 0px;
+    
+}
+.btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.src{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skip{
+
+    width: 750px;
+    height: 75px;
+    background-color: #ffffff;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    left: 26%;
+}
+.par{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    color: #333333;
+    margin: 0px;
+    padding: 10px 50px;
+    max-width: 635px;
+    max-height: 55px;
+}
+.order{
+    margin: 0px;
+    
+    position: relative;
+    text-align: center;
+    top: 33%;
+    left: 41%;
+}
+.ord{
+    
+    max-width: 210px;
+    height: 60px;
+    background-color:#fc4f00;
+    color: white;
+    padding: 0 30px;
+    font-weight: bold;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 40px;
+    border: none !important;
+    border-radius: 30px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.ord:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.scroll {
+    width: 90%;
+    height: 300px;
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-left: 0px;
+    padding: 100px 0px 0px 0px ;
+  }
+  
+  .scroll-ul {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+
+  }
+  .scroll-li, .scroll-li1, .scroll-li4 {
+    position: relative; 
+    width: 300px;
+  }
+  
+
+  .burgerimg1, .pizzaimg1, .potatoimg img {
+    width: 475px;
+    height: 275px; 
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+  .pr, .pr1, .pr2 {
+    position: absolute;
+    bottom: 20px;
+    left: 25px; 
+    color: white; 
+    font-size: 18px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .hover{
+    position: absolute;
+    bottom: 20px;
+    left: 350px; 
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #1b98e0;
+    color: white; 
+    font-size: 18px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .text{
+    width: 100vw;
+    height: 50px;
+    background-color: #dc3545;
+    margin-top: 50px;
+    text-align: center;
+  }
+.content{
+    font-size: 14px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24px;
+    padding-top: 15px;
+    color: #ffffff;
+}
+.gparah{
+    width: 100vw;
+    height: 400px;
+    display: inline;
+}
+.map-container {
+    width: 100%;
+    height: 400px;
+    max-width: 600px;
+    margin: 100px 0px 10px 150px ;
+    overflow: hidden;
+    display: inline-block;
+  }
+.paragraph{
+    width: 550px;
+    font-size: 14px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #535353;
+    display: inline;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+.meal{
+    color: #428bca;
+}
+.tail{
+    width: 100vw;
+    height: 50px;
+    background-color: #eaeaea;
+    margin-bottom: 50px;
+
+}
+.nav1{
+    text-align: center;
+    margin-top: 25px;
+}
+.a1{
+    display: inline-block;
+    padding: 13px 15px;
+    color: black;
+    text-decoration: none;
+    height: 24px;
+    font-size: 16px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.a1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.follow{
+}
+.follo{
+
+}
+h2{    width: 150px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    color: #333;
+    margin: 20px 90px 15% 100px;
+    padding: 25px;
+    display: inline;
+}
+

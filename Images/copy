@@ -1,0 +1,35 @@
+.slide{
+    width: 550px;
+    height: 275px;
+    border: 1px solid black;
+    overflow: hidden;
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+
+}
+.burger{
+}
+.burimg{
+    width: 100%;
+    height: 100%;
+}
+<div class="slide">
+<div class="burger">
+    <img src="Images/Burger.jpg" alt="Burger" class="burimg">
+</div>
+<div class="pizza">
+
+</div>
+<div class="kebab">
+
+</div>
+<div class="tanduri">
+
+</div>
+<div class="jacketpotato">
+
+</div>
+</div>
